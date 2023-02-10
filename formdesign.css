@@ -1,0 +1,47 @@
+.updiv{
+    width: 57%;
+    margin: 0 auto;
+    border-left: 3px solid #ffa64d;
+    border-right: 3px solid #ffa64d;
+    border-top: 3px solid #ffa64d;
+    background-color: #ff8c1a;
+}
+li {
+    padding: 19px 20px 19px 20px !important;
+    color: white;
+    display: inline-block !important;
+    background-image: linear-gradient(#ffa64d, #b35900, #804000);
+    list-style-type: none ;
+}
+
+li:hover{
+    background-image: linear-gradient( #ff8c1a, #b35900);
+    cursor: pointer;
+
+}
+.downdiv{
+    width: 57%;
+    height: auto;
+    margin: 0 auto;
+    border-left: 3px solid #ffa64d;
+    border-right: 3px solid #ffa64d;
+    border-bottom: 3px solid #ffa64d;
+    background-image: linear-gradient(#ff8c1a, #b35900, #804000);
+    color: white;
+    text-align: center;
+    padding: 40px 0px;
+}
+input[type=text], input[type=password], input[type=tel]{
+    border: none !important;
+    outline: none;
+}
+input[type=reset], input[type=submit]{
+    padding: 10px 60px ;
+    border-radius: 8px;
+    margin: 10px 15px;
+    color: white;
+    border: none ;
+    outline: none;
+    background: linear-gradient(to top,#cc6600 50%, #e67300 50%);
+}
+
